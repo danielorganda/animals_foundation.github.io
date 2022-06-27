@@ -1,0 +1,87 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(216, 254, 254);
+}
+body{
+    margin-left: 2.5%;
+    margin-right: 3%;
+}
+.header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: line-through;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+.notice h3{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-size: 16.5px;
+}
+.textnotice .harimau-sumatera:hover, .textnotice .dog-siberia:hover, .textnotice .ikan-mas:hover{
+    color: rgb(135, 22, 241);
+}
+.image img{
+    margin-left: 45px; 
+    border-style: solid;
+    border-radius: 15px;
+    border-color: darkcyan;
+    border-width: 3.8px;
+}
+.image img.harimau{
+    width: 25%;
+    margin-left: 10%;
+}
+.image img.dog{
+    width: 22.3%;
+}
+.image img.ikan{
+    width: 23.2%;
+}
+.textnotice{
+    font-weight: bold;
+    margin-top: 7.8px;
+}
+.harimau-sumatera{
+    margin-left: 16.8%;
+}
+.dog-siberia{
+    margin-left: 17.8%;
+}
+.ikan-mas{
+    margin-left: 18.8%;
+}
+.notice2{
+    margin-top: 50px;
+    margin-bottom: 58px;
+}
+.notice2 a{
+    color: red;
+    text-decoration: none;
+}
+.notice2 a:hover{
+    color: rgb(135, 22, 241);
+}
+.notice2 a:active{
+    font-style: italic;
+}
+.footer hr{
+    width: 33%;
+    border: 1.5px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}
+.footer h5{
+    text-align: center;
+    font-size: 14.5px;
+}
+.footer h5:hover{
+    color: rgb(29, 89, 255);
+}
+.footer hr.hr-bottom{
+    margin-bottom: 2%;
+}
+.colomchat{
+    position: relative;
+    float: left;
+}

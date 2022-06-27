@@ -1,0 +1,169 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(216, 254, 254);
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* CSS Harimau Sumatera */
+.header h1 {
+    margin-left: 2.8%;
+}
+
+.header hr {
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    color: black;
+    width: 36.9%;
+    margin-left: 2.5%;
+    margin-top: -1.3%;
+}
+
+.navigasi {
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.navigasi a {
+    color: rgb(135, 22, 241);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navigasi a:hover {
+    font-weight: bold;
+}
+
+.navigasi a:active {
+    font-style: italic;
+}
+
+.content-table-1,
+.content-table-2 {
+    margin-left: 3.5%;
+}
+
+.content-table-1 p,
+.content-table-2 p {
+    font-size: 17px;
+}
+
+.content-table-1 table,
+.content-table-1 th,
+.content-table-1 td {
+    border: 1.5px;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+.content-table-1 thead th {
+    background-color: rgb(168, 222, 255);
+}
+
+.content-table-1 thead tr:hover th {
+    color: rgb(121, 19, 218);
+}
+
+.content-table-1 tr:hover td {
+    font-weight: bold;
+}
+
+.content-table-1 tr:nth-child(odd) td {
+    background-color: rgb(191, 225, 236);
+}
+
+hr.hr-pembatas {
+    margin-top: 4.8%;
+    margin-bottom: 4.8%;
+    border: 1.5px;
+    border-style: solid;
+    border-radius: 10px;
+    color: black;
+}
+
+.content-table-2 table,
+.content-table-2 th,
+.content-table-2 td {
+    border: 1.5px;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 9px;
+    text-align: center;
+}
+
+.content-table-2 th.kota-table-2 {
+    width: 13%;
+}
+
+.content-table-2 thead th,
+.content-table-2 tfoot th {
+    background-color: rgb(168, 222, 255);
+}
+
+.content-table-2 thead:hover tr th {
+    color: rgb(121, 19, 218);
+}
+
+.content-table-2 tbody tr:hover td,
+.content-table-2 tbody tr:hover th,
+.content-table-2 tfoot tr:hover th {
+    font-weight: bold;
+}
+
+.content-table-2 tbody tr:nth-child(odd) td,
+.content-table-2 tbody tr:nth-child(odd) th {
+    background-color: rgb(191, 225, 236);
+}
+
+.footer img {
+    margin-top: 2%;
+    width: 5%;
+    float: right;
+}
+
+.footer hr {
+    width: 30%;
+    position: relative;
+    left: 33.8%;
+    border: 1.5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.footer hr.hr-top {
+    margin-top: 6.8%;
+}
+
+.footer h5 {
+    text-align: center;
+}
+
+.footer h5:hover {
+    color: rgb(29, 89, 255);
+}
+
+.footer hr.hr-bottom {
+    margin-bottom: 2%;
+}
+
+/* CSS Anjing Siberia */
+hr.hr-header-anjing-siberia {
+    width: 31.2%;
+}
+
+.content-table-1 table thead th.th-jumlah-anjing-siberia {
+    width: 45%;
+}
+
+/* CSS Ikan Mas Koki */
+hr.hr-header-ikan-mas {
+    width: 31.1%;
+}
+
+.content-table-1 table thead th.th-jumlah-ikan-mas {
+    width: 45%;
+}
